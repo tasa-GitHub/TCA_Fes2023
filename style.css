@@ -58,6 +58,7 @@
 .author-btn {
     font-size:3rem;
     width:20rem;
+    margin-bottom:1rem;
 }
 
 .link-icon-wrapper{
@@ -82,4 +83,8 @@
 .title {
     color:white;
     text-align:center;
+}
+
+.game-container{
+    height:100vh
 }
