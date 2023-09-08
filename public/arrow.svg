@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>1098_ar_h</title>
+  <g>
+    <g>
+      <line class="a" x1="17.91" y1="24" x2="30.13" y2="24"/>
+      <polyline class="a" points="24.04 18.91 17.87 24 24.04 29.09"/>
+    </g>
+    <circle class="a" cx="24" cy="24" r="13"/>
+  </g>
+</svg>
