@@ -88,3 +88,9 @@
 .game-container{
     height:100vh
 }
+
+.pre-btn {
+    position:fixed;
+    top:10px;
+    left:10px;
+}
