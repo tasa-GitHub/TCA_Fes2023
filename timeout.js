@@ -15,9 +15,15 @@ const WATCHEVENTS = [
   'touchcancel'   // タッチをキャンセル（スマホ）
 ];
 
+const iframeElem = document.getElementsByTagName('iframe');
+
+const iframeDocument = iframeElem[0].contentDocument || iframeElem[0].contentWindow.document;
+
+const elem = iframeDocument.getElementsById("unity-canvas")
+
 window.addEventListener("load", () => {
   WATCHEVENTS.forEach((type) => {
-      window.addEventListener(type, () => {
+      elem.addEventListener(type, () => {
       LASTTIME = Date.now();
       });
   });
