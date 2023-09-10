@@ -27,7 +27,7 @@ const timerId = setInterval(() => {
 
     if (FLAG) {
     clearInterval(timerId);
-    window.location.href = "index.html";
+    window.location.href = "TCA_Fes2023/index.html";
     }
 }, 1000);
 });
