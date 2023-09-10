@@ -16,18 +16,18 @@ const WATCHEVENTS = [
 ];
 
 window.addEventListener("load", () => {
-WATCHEVENTS.forEach((type) => {
-    window.addEventListener(type, () => {
-    LASTTIME = Date.now();
-    });
-});
+  WATCHEVENTS.forEach((type) => {
+      window.addEventListener(type, () => {
+      LASTTIME = Date.now();
+      });
+  });
 
-const timerId = setInterval(() => {
-    FLAG = Date.now() - LASTTIME > 60 * 1000;
+  const timerId = setInterval(() => {
+      FLAG = Date.now() - LASTTIME > 60 * 1000;
 
-    if (FLAG) {
-    clearInterval(timerId);
-    window.location.href = "https://tasa-github.github.io/TCA_Fes2023/";
-    }
-}, 1000);
+      if (FLAG) {
+      clearInterval(timerId);
+      window.location.href = "https://tasa-github.github.io/TCA_Fes2023/";
+      }
+  }, 1000);
 });
