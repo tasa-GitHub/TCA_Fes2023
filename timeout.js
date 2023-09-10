@@ -27,7 +27,7 @@ const timerId = setInterval(() => {
 
     if (FLAG) {
     clearInterval(timerId);
-    window.location.href = "";
+    window.location.href = "https://tasa-github.github.io/TCA_Fes2023/";
     }
 }, 1000);
 });
