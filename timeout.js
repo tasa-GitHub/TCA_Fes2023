@@ -26,8 +26,8 @@ window.addEventListener("load", () => {
       FLAG = Date.now() - LASTTIME > 60 * 1000;
 
       if (FLAG) {
-      clearInterval(timerId);
-      window.location.href = "https://tasa-github.github.io/TCA_Fes2023/";
+        clearInterval(timerId);
+        window.location.href = "https://tasa-github.github.io/TCA_Fes2023/";
       }
   }, 1000);
 });
